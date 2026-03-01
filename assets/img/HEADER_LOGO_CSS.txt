@@ -1,0 +1,13 @@
+
+/* Header logo – icon-only */
+.brand .logo{
+  width: 40px;               /* adjust to 48–56px if you want bigger */
+  height: 40px;
+  border-radius: 8px;        /* keep the soft-square brand shape */
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+  background: linear-gradient(135deg, var(--sage), var(--olive)); /* subtle fallback */
+  background-image: url('assets/img/logo-earthroom-icon.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
