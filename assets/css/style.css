@@ -15,7 +15,7 @@ img{max-width:100%;height:auto}
 .hamburger{display:none}
 .hero{position:relative;min-height:62vh;display:grid;place-items:center;color:#17301b}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(241,244,238,.75),rgba(241,244,238,.35) 60%,rgba(241,244,238,.9));z-index:0}
-.hero .bg{position:absolute;inset:0;background:url('assets/img/forest_blur_1.jpg') center/cover no-repeat;filter:brightness(.95) saturate(95%)}
+.hero .bg{position:absolute;inset:0;background: url('assets/img/forest_blur_1.jpg') center/cover no-repeat;filter:brightness(.95) saturate(95%)}
 .hero .content{position:relative;z-index:1}
 .hero h1{font-size:clamp(2rem,4vw,3rem);margin:.25rem 0 .5rem;font-weight:800}
 .hero p{max-width:720px;margin:0 auto 1rem;font-size:1.1rem}
